@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Menu, MenuButton, MenuItem, MenuItems } from "@headlessui/react";
 import { MdKeyboardArrowDown } from "react-icons/md";
 import { FaBell } from "react-icons/fa";
-
+/* <3 */
 export default function NotificationAndGymSelector({ locations, onLocationChange }) {
   const [selectedLocation, setSelectedLocation] = useState(locations[0]);
 
